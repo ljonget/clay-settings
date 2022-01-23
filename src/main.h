@@ -7,6 +7,7 @@
 typedef struct ClaySettings {
   GColor BackgroundColor;
   GColor ForegroundColor;
+  char * Email;
   bool SecondTick;
   bool Animations;
 } __attribute__((__packed__)) ClaySettings;
